@@ -1,0 +1,29 @@
+.form-section {
+    background-color: #f48127; /* Orange section header */
+    color: white;
+    padding: 10px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545; /* Red border for invalid fields */
+}
+
+.form-control:invalid ~ .invalid-feedback {
+    display: block;
+}
+
+  /* Menggeser ikon profil ke kiri */
+.profile-pic {
+    position: relative;
+    left: -4rem; /* Menggeser ikon 4rem ke kiri */
+}
+
+/* Mengatur dropdown menu agar muncul di sebelah kanan ikon */
+.profile-menu .dropdown-menu {
+    left: auto;
+    right: 0; /* Menempatkan dropdown di kanan ikon */
+}
